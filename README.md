@@ -14,9 +14,15 @@ $ docker build -t nba .
 $ docker run --name nba-web-service -p 5000:5000 nba:latest
 ```
 
+### Run web application with python
+Go to the root directory of the project and execute the following command :
+```sh
+$ python3 app.py
+```
 
 ### Access to web application
 Browse [http://localhost:5000/nba-ml/player](http://localhost:5000/nba-ml/player)
+
 
 ### Interface
 
